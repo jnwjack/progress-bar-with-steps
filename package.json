@@ -1,0 +1,18 @@
+{
+  "name": "progress-bar-with-steps",
+  "version": "1.0.0",
+  "description": "A progress bar with a variable number of steps for Vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "progress",
+    "progress-bar",
+    "steps",
+    "checkpoints",
+    "vanilla-js"
+  ],
+  "author": "Jack Wohl <jnw900@gmail.com> (https://github.com/jnwjack)",
+  "license": "ISC"
+}

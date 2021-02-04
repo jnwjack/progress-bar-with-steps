@@ -1,6 +1,6 @@
 {
   "name": "progress-bar-with-steps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scalable, pure CSS progress bar with a variable number of steps and a customizable color palette",
   "main": "src/index.js",
   "scripts": {

@@ -102,7 +102,6 @@ function createInlineStyles(stepsBar) {
 
     // Specialized styling for the fragments of this progress bar
     let fragments = stepsBar.querySelectorAll('.steps-bar-fragment');
-    console.log(document.querySelector('.steps-bar'));
     fragments.forEach((fragment) => {
       // For first fragment (rounded left end)
       if(fragment === stepsBar.firstElementChild) {
@@ -124,7 +123,6 @@ function createInlineStyles(stepsBar) {
     // Specialized styling for the labels
     let circleLabels = stepsBar.querySelectorAll('.steps-bar-circle-wrapper > p');
     let labelWidth = (1.0/(numSteps+1)) * 100;
-    console.log(labelWidth);
     circleLabels.forEach((label) => {
       label.style.color = `${textColor || '#000000'}`;
       label.style.fontSize = `${scale ? scale + 'rem' : '1rem'}`;
@@ -134,7 +132,6 @@ function createInlineStyles(stepsBar) {
 
     // Specialized styling for the circles
     let circles = stepsBar.querySelectorAll('.steps-bar-circle');
-    console.log(circlePrimary);
     circles.forEach((circle) => {
       if(circle.classList.contains('current')) {
         // For current step
@@ -180,6 +177,4 @@ if(typeof module !== 'undefined' && module.exports) {
   module.exports = {
     initProgressBars
   };
-} else {
-  initProgressBars();
 }

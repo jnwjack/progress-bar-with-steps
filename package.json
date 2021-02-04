@@ -1,11 +1,11 @@
 {
   "name": "progress-bar-with-steps",
   "version": "1.0.0",
-  "description": "A progress bar with a variable number of steps for Vanilla JS",
+  "description": "Scalable, pure CSS progress bar with a variable number of steps and a customizable color palette",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "minify src/index.js > dist/index.min.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
   "license": "MIT",
   "homepage": "https://github.com/jnwjack/progress-bar-with-steps.git#readme",
   "devDependencies": {
-    "webpack": "^5.20.1",
-    "webpack-cli": "^4.5.0"
+    "minify": "^7.0.0"
   }
 }

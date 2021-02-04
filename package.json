@@ -2,9 +2,14 @@
   "name": "progress-bar-with-steps",
   "version": "1.0.0",
   "description": "A progress bar with a variable number of steps for Vanilla JS",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnwjack/progress-bar-with-steps.git"
   },
   "keywords": [
     "progress",
@@ -14,5 +19,10 @@
     "vanilla-js"
   ],
   "author": "Jack Wohl <jnw900@gmail.com> (https://github.com/jnwjack)",
-  "license": "ISC"
+  "license": "MIT",
+  "homepage": "https://github.com/jnwjack/progress-bar-with-steps.git#readme",
+  "devDependencies": {
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0"
+  }
 }

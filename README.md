@@ -41,7 +41,7 @@ Create a progress bar in your HTML and pass in optional parameters.
   data-key="0">
 </div>
 ```
-![Progress Bar Demo](demo/demo.gif "Demo")
+![Progress Bar Demo](https://raw.githubusercontent.com/jnwjack/progress-bar-with-steps/main/demo/demo.gif "Demo")
 
 ### Reference
 - `data-num-steps` - Number of steps (milestones, checkpoints) along progress bar
